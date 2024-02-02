@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: 'dm-serif';
+    src: url(/font/Rozha_One/RozhaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'outfit';
+    src: url(/font/Outfit/static/Outfit-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    overflow-x: hidden;
+}
+
+#header-title{
+    text-decoration: none;
+    font-family:'dm-serif';
+    background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
+    font-size: 9vw;
+    background-clip: text;
+    color: transparent;
+    margin-left: 2%;
+    text-align:center;
+    /* color: aliceblue; */
+    position: relative;
+    left: 7px;
+    
+    
+}
+
+#chair{
+margin-right: 2vw;
+    vertical-align:middle;
+    color: transparent;
+}
+
+header{
+    color: aliceblue;
+    width: 100vw;
+    height: 11vh;
+    display: flex;
+    justify-content:space-between;
+    align-items:last baseline;
+}
+#chair{
+    font-size: .9em;
+}
+
+#menu-open{
+    width: 12vw;
+    /* margin-right: 1%; */
+    position: relative;
+    top: 5px;
+    font-size:8vw;
+    /* height: 100%; */
+}
+
+#header-bg{
+    background-image: url(/asset/1155025.jpg);
+    height: 100vh;
+}
+
+#table-desc,td{
+    /* border: 1px solid white; */
+    color: aliceblue;
+    font-family: 'outfit';
+    font-size: 10vw;
+    font-weight: bold;
+    margin-top: 2vh;
+line-height: 9vh;
+overflow-y: hidden;
+    
+}
+
+td{
+    padding-left: 2.5%;
+    /* padding-bottom: .1vh;
+    padding-top: .1vh;  */
+}
+
+#img-tab{
+    object-fit:fill;
+    width: 30vw;
+    height:9vw;
+    border-radius: 50px;
+    margin-left: 7%;
+    position: relative;
+    top: 1.4vh;
+}
+
+.head-content{
+    color: aliceblue;
+    font-family:sans-serif;
+    font-size: 4.7vw;
+    opacity: .5;
+    /* font-weight:lighter; */
+    line-height: 5vh;
+    margin-top: 5vh;
+    margin-left: 3%;
+    overflow-y: hidden;
+}
+
+#head-button{
+    font-size: 4.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 6.5vh;
+    margin-left: 3%;
+    height: 7vh;
+    width: 40vw;
+    color: aliceblue;
+    background-color: red;
+    overflow-y: hidden;
+}
+
+.head-foot{
+    margin-top: 6.5vh;
+    margin-left: 5%;
+    margin-right: 6%;
+    font-family: sans-serif;
+    font-size: 9vw;
+    column-gap: 14vw;
+    color: aliceblue;
+    display:flex;
+}
+
+.head-foot-1{
+    margin-top: 2vh;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 3.3vw;
+    display: flex;
+    opacity: .5;
+    column-gap:12vw ;
+    margin-left:4.7% ;
+}
+
+/* @media(min-width:350px) {
+    #img-tab{
+        width: 113px;
+        height:29px;
+        margin-left: 25px;
+        vertical-align: top;
+        position: relative;
+        top: 10px;
+    }
+    #table-desc,td{
+        font-size: 35px;
+    }
+} */
+
