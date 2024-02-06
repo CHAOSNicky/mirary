@@ -15,140 +15,152 @@
     overflow-x: hidden;
 }
 
-#header-title{
-    text-decoration: none;
-    font-family:'dm-serif';
-    background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
-    font-size: 9vw;
-    background-clip: text;
-    color: transparent;
-    margin-left: 2%;
-    text-align:center;
-    /* color: aliceblue; */
-    position: relative;
-    left: 7px;
-    
-    
-}
-
-#chair{
-margin-right: 2vw;
-    vertical-align:middle;
-    color: transparent;
-}
-
-header{
-    color: aliceblue;
-    width: 100vw;
-    height: 11vh;
-    display: flex;
-    justify-content:space-between;
-    align-items:last baseline;
-}
-#chair{
-    font-size: .9em;
-}
-
-#menu-open{
-    width: 12vw;
-    /* margin-right: 1%; */
-    position: relative;
-    top: 5px;
-    font-size:8vw;
-    /* height: 100%; */
-}
-
-#header-bg{
-    background-image: url(/asset/1155025.jpg);
-    height: 100vh;
-}
-
-#table-desc,td{
-    /* border: 1px solid white; */
-    color: aliceblue;
-    font-family: 'outfit';
-    font-size: 10vw;
-    font-weight: bold;
-    margin-top: 2vh;
-line-height: 9vh;
-overflow-y: hidden;
-    
-}
-
-td{
-    padding-left: 2.5%;
-    /* padding-bottom: .1vh;
-    padding-top: .1vh;  */
-}
-
-#img-tab{
-    object-fit:fill;
-    width: 30vw;
-    height:9vw;
-    border-radius: 50px;
-    margin-left: 7%;
-    position: relative;
-    top: 1.4vh;
-}
-
-.head-content{
-    color: aliceblue;
-    font-family:sans-serif;
-    font-size: 4.7vw;
-    opacity: .5;
-    /* font-weight:lighter; */
-    line-height: 5vh;
-    margin-top: 5vh;
-    margin-left: 3%;
-    overflow-y: hidden;
-}
-
-#head-button{
-    font-size: 4.5vw;
-    font-family: sans-serif;
-    font-weight: bold;
-    margin-top: 6.5vh;
-    margin-left: 3%;
-    height: 7vh;
-    width: 40vw;
-    color: aliceblue;
-    background-color: red;
-    overflow-y: hidden;
-}
-
-.head-foot{
-    margin-top: 6.5vh;
-    margin-left: 5%;
-    margin-right: 6%;
-    font-family: sans-serif;
-    font-size: 9vw;
-    column-gap: 14vw;
-    color: aliceblue;
-    display:flex;
-}
-
-.head-foot-1{
-    margin-top: 2vh;
-    color: aliceblue;
-    font-family: sans-serif;
-    font-size: 3.3vw;
-    display: flex;
-    opacity: .5;
-    column-gap:13vw ;
-    margin-left:5% ;
-}
 
 @media(max-width:979px){
-     p{
+    p{
+       overflow-y: hidden;
+   }
+   
+}
+
+/* PAGE-1-MOBILE*/
+
+
+
+    #header-title{
+        text-decoration: none;
+        font-family:'dm-serif';
+        background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
+        font-size: 9vw;
+        background-clip: text;
+        color: transparent;
+        margin-left: 2%;
+        text-align:center;
+        /* color: aliceblue; */
+        position: relative;
+        left: 7px;
+        
+        
+    }
+    
+    #chair{
+    margin-right: 2vw;
+        vertical-align:middle;
+        color: transparent;
+    }
+    
+    header{
+        color: aliceblue;
+        width: 100vw;
+        height: 11vh;
+        display: flex;
+        justify-content:space-between;
+        align-items:last baseline;
+    }
+    #chair{
+        font-size: .9em;
+    }
+    
+    #menu-open{
+        width: 12vw;
+        /* margin-right: 1%; */
+        position: relative;
+        top: 5px;
+        font-size:8vw;
+        /* height: 100%; */
+    }
+    
+    #header-bg{
+        background-image: url(/asset/1155025.jpg);
+        height: 100vh;
+    }
+    
+
+
+    #table-desc,td{
+        /* border: 1px solid white; */
+        color: aliceblue;
+        font-family: 'outfit';
+        font-size: 10vw;
+        font-weight: bold;
+        margin-top: 2vh;
+    line-height: 9vh;
+    overflow-y: hidden;
+        
+    }
+    
+    td{
+        padding-left: 2.5%;
+        /* padding-bottom: .1vh;
+        padding-top: .1vh;  */
+    }
+    
+    #img-tab{
+        object-fit:fill;
+        width: 30vw;
+        height:9vw;
+        border-radius: 50px;
+        margin-left: 7%;
+        position: relative;
+        top: 1.4vh;
+    }
+    
+    .head-content{
+        color: aliceblue;
+        font-family:sans-serif;
+        font-size: 4.7vw;
+        opacity: .5;
+        /* font-weight:lighter; */
+        line-height: 5vh;
+        margin-top: 5vh;
+        margin-left: 3%;
         overflow-y: hidden;
     }
     
-}
+    #head-button{
+        font-size: 4.5vw;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-top: 6.5vh;
+        margin-left: 3%;
+        height: 7vh;
+        width: 40vw;
+        color: aliceblue;
+        background-color: red;
+        overflow-y: hidden;
+    }
+    
+    .head-foot{
+        margin-top: 6.5vh;
+        margin-left: 5%;
+        margin-right: 6%;
+        font-family: sans-serif;
+        font-size: 9vw;
+        column-gap: 14vw;
+        color: aliceblue;
+        display:flex;
+    }
+    
+    .head-foot-1{
+        margin-top: 2vh;
+        color: aliceblue;
+        font-family: sans-serif;
+        font-size: 3.3vw;
+        display: flex;
+        opacity: .5;
+        column-gap:13vw ;
+        margin-left:5% ;
+    }
+    
+
+
+
+
 
 /* PAGE-1-TABLET */
 
 
-@media(min-width:431px) and (max-width:899px) and (min-height:950px) {
+@media(min-width:431px) and (max-width:899px) and (max-height:1300px) {
     #table-desc,td{
         margin-top: 20px;
         font-size: 60px;
@@ -162,6 +174,7 @@ td{
     .head-content{
         margin-top: 55px;
         font-size: 23px;
+        
     }
     #head-button{
         margin-top: 60px;
@@ -170,10 +183,12 @@ td{
     .head-foot{
         margin-top: 80px;
         font-size: 43px;
+        column-gap: 125px;
     }
     .head-foot-1{
         margin-top: 35px;
         font-size: 20px;
+        column-gap: 90px;
     }
     #header-title{
         font-size: 60px;
@@ -191,7 +206,7 @@ td{
 
 /* PAGE-1-DESKTOP */
  
-@media(min-width:900px) and (min-height:550px) {
+@media(min-width:900px) and (max-width:2000px) and (max-height:2150px) {
     #table-desc,td{
         margin-top: 20px;
         font-size: 47px;
@@ -207,15 +222,15 @@ td{
         font-size: 20px;
     }
     #head-button{
-        margin-top: 55px;
+        margin-top: 45px;
         font-size: 16px;
     }
     .head-foot{
-        margin-top: 60px;
+        margin-top: 40px;
         font-size: 39px;
     }
     .head-foot-1{
-        margin-top: 25px;
+        margin-top: 20px;
         font-size: 15px;
     }
     #header-title{
@@ -235,9 +250,9 @@ td{
 
 /* PAGE-1-DESKTOP-MINIMIZES */
 
-@media(min-width:465px) and (min-height:500px){
+@media(min-width:500px) and (max-width:899px) and (max-height:930px){
     #table-desc,td{
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: 45px;
     }
     #img-tab{
@@ -249,6 +264,7 @@ td{
     .head-content{
         margin-top: 30px;
         font-size: 20px;
+        margin-right: 15px;
     }
     #head-button{
         margin-top: 45px;
@@ -257,12 +273,12 @@ td{
     .head-foot{
         margin-top: 40px;
         font-size: 35px;
-        
+        column-gap: 65px;
     }
     .head-foot-1{
-        margin-top: 42px;
+        margin-top: 20px;
         font-size: 15px;
-        column-gap: 11%;
+        column-gap: 45px;
     }
     #header-title{
         font-size: 50px;
@@ -345,7 +361,8 @@ td{
         margin-right: 8vw;
         font-family: 'outfit';
         font-weight: 700;
-        font-size: 9vw;
+        /* line-height: 4vh; */
+        font-size: 8vw;
     }
     #fur-lor{
         margin-top: 1.5vh;
@@ -389,7 +406,7 @@ td{
 
 /* PAGE-2-TABLET */
 
-@media (min-width:431px) and (max-width:900px) and (max-height:1150px) {
+@media (min-width:431px) and (max-width:899px) and (max-height:1300px) {
     #page-2 {
         width: 100vw;
         height:100vh;
@@ -419,7 +436,7 @@ td{
         height: 35%;
         position: relative;
         bottom: 30.5%;
-        left: 52%;
+        left: 50%;
         background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
         opacity: .8;
         color:rgb(110, 59, 9);
@@ -449,7 +466,7 @@ td{
         margin-right: 8vw;
         font-family: 'outfit';
         font-weight: 700;
-        line-height: 5vh;
+        line-height: 6vh;
         font-size: 5vw;
     }
     #fur-lor{
@@ -459,7 +476,7 @@ td{
         line-height: 3vh;
         font-family: sans-serif;
         opacity: .8;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .fur-nav{
         margin-top: 2.3vh;
@@ -496,7 +513,7 @@ td{
 /* PAGE-2-DEESKTOP */
 
 
-@media (min-width:900px) and (max-width:2000px) and (max-height:1150px) {
+@media (min-width:900px) and (max-width:2000px) and (max-height:2150px) {
     #page-2 {
         width: 100vw;
         height:100vh;
@@ -505,36 +522,37 @@ td{
         flex-direction: row;
     }
     .outer-box{
-        width: 100vw;
-        height: 50vh;
+        flex: 1;
+        height: 100vh;
         overflow-y: hidden;
+       
     }
     
     .outer-box img{
-        width:80%;
-        height:90%;
+        width: 80%;
+        height: 90%;
         object-fit:cover;
         position: relative;
         top:5% ;
-        bottom: 5%;
-        left: 10vw;
+        bottom: 5%; 
+        left: 5% 
         
     }
     
     .inner-box{
         width: 45%;
-        height: 35%;
+        height: 30%;
         position: relative;
-        bottom: 30.5%;
+        bottom: 25.5%;
         left: 52%;
         background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
         opacity: .8;
         color:rgb(110, 59, 9);
         font-family: 'outfit';
-        font-size: 5vw;
+        font-size: 4vw;
         font-weight:900;
         text-align: left;
-        line-height: 5vh;
+        line-height: 6.5vh;
         display: flex;
         align-items: center;
         text-align: center;
@@ -543,48 +561,50 @@ td{
     
     #fur-pro{
         margin-top: 2vh;
-        margin-left: 8vw;
+        margin-left: 6vw;
         margin-right: auto;
         font-family: sans-serif;
         font-weight: 800;
         opacity: .7;
-        font-size: 2.5vw;
+        font-size: 1.6vw;
     }
     #fur-com{
         margin-top: 1.5vh;
-        margin-left: 8vw;
+        margin-left: 6vw;
         margin-right: 8vw;
         font-family: 'outfit';
         font-weight: 700;
-        line-height: 5vh;
-        font-size: 5vw;
+        line-height: 9vh;
+        font-size: 4vw;
+        overflow-y: hidden;
     }
     #fur-lor{
-        margin-top: 1.5vh;
-        margin-left: 8vw;
+        margin-top: 4.5vh;
+        margin-left: 6vw;
        margin-right:5vw;
-        line-height: 3vh;
+        line-height: 4vh;
         font-family: sans-serif;
         opacity: .8;
-        font-size: 3vw;
+        font-size: 1.5vw;
+        overflow-y: hidden;
     }
     .fur-nav{
-        margin-top: 2.3vh;
-        margin-left: 8vw;
-        margin-right: 25vw;
+        margin-top: 3vh;
+        margin-left: 6vw;
+        margin-right: 5vw;
         font-family: 'outfit';
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 3vw;
     }
     #fur-but{
-        margin-top: 3vh;
-        margin-left: 8vw;
+        margin-top: 4vh;
+        margin-left: 6vw;
        
         font-family: 'outfit';
         font-weight: 500;
         background-color: rgb(190, 73, 27);
-        width: 25vw;
-        height: 4vh;
+        width: 20vw;
+        height: 8vh;
         color: aliceblue;
     }
     #first-furnav{
@@ -592,8 +612,122 @@ td{
         border-bottom: 1px solid grey ;
     }
     .production{
+        flex: 1;
         display: flex;
         flex-direction: column;
+        line-height: 10vh;
+        
+    }    
+
+}
+
+
+/* PAGE-2-DESKTOP-MINIMIZE */
+
+
+@media(min-width:500px) and (max-width:899px) and (max-height:930px){
+    #page-2 {
+        width: 100vw;
+        height:100vh;
+        background-color: rgb(218, 209, 193);
+        display: flex;
+        flex-direction: row;
+    }
+    .outer-box{
+        flex: 1;
+        height: 100vh;
+        overflow-y: hidden;
+       
+    }
+    
+    .outer-box img{
+        width: 80%;
+        height: 90%;
+        object-fit:cover;
+        position: relative;
+        top:5% ;
+        bottom: 5%; 
+        left: 5% 
+        
+    }
+    
+    .inner-box{
+        width: 45%;
+        height: 30%;
+        position: relative;
+        bottom: 25.5%;
+        left: 52%;
+        background-image: url(/asset/Screenshot\ 2024-02-02\ 154333.png);
+        opacity: .8;
+        color:rgb(110, 59, 9);
+        font-family: 'outfit';
+        font-size: 4vw;
+        font-weight:900;
+        text-align: left;
+        line-height: 6.5vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        word-spacing: 2.35vw;
+    }
+    
+    #fur-pro{
+        margin-top: 2vh;
+        margin-left: 6vw;
+        margin-right: auto;
+        font-family: sans-serif;
+        font-weight: 800;
+        opacity: .7;
+        font-size:1.7vw;
+    }
+    #fur-com{
+        margin-top: 1.5vh;
+        margin-left: 6vw;
+        margin-right: 8vw;
+        font-family: 'outfit';
+        font-weight: 700;
+        line-height: 9vh;
+        font-size: 4.5vw;
+        overflow-y: hidden;
+    }
+    #fur-lor{
+        margin-top: 4.5vh;
+        margin-left: 6vw;
+       margin-right:5vw;
+        line-height: 4vh;
+        font-family: sans-serif;
+        opacity: .8;
+        font-size: 1.5vw;
+        overflow-y: hidden;
+    }
+    .fur-nav{
+        margin-top: 3vh;
+        margin-left: 6vw;
+        margin-right: 5vw;
+        font-family: 'outfit';
+        font-weight: 700;
+        font-size: 3vw;
+    }
+    #fur-but{
+        margin-top: 4vh;
+        margin-left: 6vw;
+       
+        font-family: 'outfit';
+        font-weight: 500;
+        background-color: rgb(190, 73, 27);
+        width: 20vw;
+        height: 8vh;
+        color: aliceblue;
+    }
+    #first-furnav{
+        padding-bottom: 2vh;
+        border-bottom: 1px solid grey ;
+    }
+    .production{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        line-height: 10vh;
         
     }    
 
